@@ -1,0 +1,5 @@
+{
+	"shell": true,
+	"cmd": ["g++", "-std=c++17", "-DLOCAL", "$file", "-o", "build.exe", "&&", "build.exe"]
+
+}
