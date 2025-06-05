@@ -1,0 +1,47 @@
+<snippet>
+<content><![CDATA[
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#define vi vector<int>
+#define pii pair<int, int>
+#define ll long long
+#define pb push_back
+#define el "\n"
+#define all(a) a.begin(), a.end()
+#define YES cout << "YES\n"
+#define NO cout << "NO\n"
+int mod = 1e9 + 7;
+
+
+
+// Remove the loop if there is no testcase
+void solve(){
+
+	$0
+}
+
+int main(){
+	#ifdef LOCAL
+		freopen("input.txt", "r", stdin);
+		freopen("output.txt", "w", stdout);
+		auto begin = chrono::high_resolution_clock::now();
+	#else
+		ios::sync_with_stdio(0);
+		cin.tie(0);
+	#endif
+	
+	int tt; cin >> tt; while(tt--)
+	solve();
+	
+	#ifdef LOCAL
+		auto end = chrono::high_resolution_clock::now();
+		auto elapsed = chrono::duration_cast<chrono::milliseconds> (end - begin);
+		cout << el << "Time elapsed: " << (double)elapsed.count() << "ms";
+	#endif
+	return 0;
+}
+]]></content>
+	<tabTrigger>cp</tabTrigger>
+</snippet>
