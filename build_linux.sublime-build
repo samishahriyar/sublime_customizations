@@ -1,0 +1,4 @@
+{
+	"shell": true,
+	"cmd": ["g++ -std=c++17 -DLOCAL $file_name -o build && ./build"]
+}
